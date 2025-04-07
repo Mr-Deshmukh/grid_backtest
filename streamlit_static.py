@@ -12,9 +12,7 @@ aws_secret_access_key = st.secrets["AWS_SECRET_ACCESS_KEY"]
 region_name = st.secrets["region_name"]
 bucket_name = st.secrets["bucket_name"]
 combine_results_prefix = st.secrets["combine_results_prefix"]
-yaml_config_key = st.secrets
-
-
+yaml_config_key = st.secrets["yaml_config_key"]
 # Hardcoded plot prefix for stored plots (PNG images)
 plot_prefix = "combine_results_graph/"
 
